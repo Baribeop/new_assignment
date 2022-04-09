@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>beopbmiapp</title>
+</head>
+
+
+<body>
+    <div class = 'login'></div>
+<div style="border: 1px; color: brown; margin-top: 20px;">
+    <h > Collect data for Body Mass Index Calculation (BMI)</h>
+</div>
+
+    <form action="." method="post" style="margin: 5px; color: gray; border-top: 5px;">
+
+        <input type="text" placeholder="Enter your height" name ="height"/><br><br>
+
+        <input type="text" placeholder="Enter unit of height (m/cm/inches    ) " name="unit of height"/><br><br>
+
+        <input type="text" placeholder="Enter your weight" name="weight"/><br><br>
+
+        <input type="text" placeholder="Enter unit of weight (kg/g/lb) " name="unit of weight"/><br><br>
+
+        <button type="submit" > Calculate BMI</button>
+    </form>
+        
+   <p style="padding: 1px; display: block;margin-top: 1px; color: peru;">
+    {{weight_and_unit}} <br><br>
+    {{height_and_unit}} <br><br>
+    {{bmi_status}} 
+
+   </p>
+
+<body>
+    
+<html>
+  
